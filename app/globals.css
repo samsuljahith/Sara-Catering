@@ -6,10 +6,41 @@
 
 @layer base {
   body {
-    @apply bg-background text-text-primary font-body;
+    @apply bg-background text-text-primary font-body text-base;
   }
   h1, h2, h3 {
     @apply font-heading;
+  }
+  /* Prevent mobile browsers from shrinking text */
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font-size: 16px;
+  }
+  /* Larger tap targets and readable text on mobile */
+  @media (max-width: 640px) {
+    body {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 2rem !important;
+    }
+    h2 {
+      font-size: 1.5rem !important;
+    }
+    h3, h4 {
+      font-size: 1.2rem !important;
+    }
+    p, span, a, li, label, select, input, textarea, button {
+      font-size: 1rem !important;
+    }
+    .text-sm {
+      font-size: 0.938rem !important;
+    }
+    .text-xs {
+      font-size: 0.875rem !important;
+    }
   }
 }
 
