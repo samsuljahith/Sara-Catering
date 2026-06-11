@@ -43,7 +43,7 @@ export default function Home() {
         <div className="relative z-10 text-center max-w-4xl mx-auto">
           <p className="text-gold text-sm uppercase tracking-widest mb-4 font-medium">Welcome to Sara Catering</p>
           <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl text-text-primary leading-tight mb-6">
-            Authentic <span className="text-gold text-4xl md:text-6xl lg:text-7xl">Tamil Nadu</span> Flavours For Every Occasion
+            Authentic <span className="text-gold text-4xl md:text-6xl lg:text-7xl">தமிழ்நாடு</span> Flavours For Every Occasion
           </h1>
           <p className="text-text-muted text-lg md:text-xl max-w-2xl mx-auto mb-8">
             From Kalyana Virundhu to Birthday Parties — Sara Catering brings the taste of home to your celebration
